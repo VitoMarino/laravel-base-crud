@@ -1,0 +1,51 @@
+ID,Name,Description,Timestamp
+1,Leone,Grande felino della savanna africana,2024-07-22T08:30:00Z
+2,Elefante,Il più grande mammifero terrestre,2024-07-22T08:32:00Z
+3,Cane,Compagno domestico noto per la sua fedeltà,2024-07-22T08:34:00Z
+4,Gatto,Animale domestico noto per la sua indipendenza,2024-07-22T08:36:00Z
+5,Tigre,Predatore solitario della foresta asiatica,2024-07-22T08:38:00Z
+6,Orso,Grande mammifero onnivoro della foresta,2024-07-22T08:40:00Z
+7,Cervo,Animale erbivoro che vive nelle foreste temperate,2024-07-22T08:42:00Z
+8,Giraffa,Animale alto con collo lungo che vive nelle savane,2024-07-22T08:44:00Z
+9,Zebra,Equide striato che vive nelle savane africane,2024-07-22T08:46:00Z
+10,Panda,Orso asiatico noto per il suo aspetto distintivo,2024-07-22T08:48:00Z
+11,Lupo,Predatore sociale delle foreste e tundre,2024-07-22T08:50:00Z
+12,Rinoceronte,Grande erbivoro con uno o due corni,2024-07-22T08:52:00Z
+13,Ippopotamo,Grande mammifero semi-acquatico,2024-07-22T08:54:00Z
+14,Scimmia,Primato con una grande varietà di specie,2024-07-22T08:56:00Z
+15,Kangaroo,Macropodo noto per il suo salto potente,2024-07-22T08:58:00Z
+16,Lemure,Primato unico dell'isola di Madagascar,2024-07-22T09:00:00Z
+17,Koala,Marsupiale arboricolo australiano,2024-07-22T09:02:00Z
+18,Canguro,Macropodo che vive nelle pianure australiane,2024-07-22T09:04:00Z
+19,Foca,Mammifero marino con corpi adattati al nuoto,2024-07-22T09:06:00Z
+20,Pinguino,Uccello incapace di volare che vive in Antartide,2024-07-22T09:08:00Z
+21,Aquila,Uccello rapace con vista acuta,2024-07-22T09:10:00Z
+22,Falco,Uccello predatore noto per la sua velocità,2024-07-22T09:12:00Z
+23,Colibrì,Uccello di piccole dimensioni con battito d'ali veloce,2024-07-22T09:14:00Z
+24,Cigno,Uccello elegante che vive vicino all'acqua,2024-07-22T09:16:00Z
+25,Papera,Uccello acquatico domestico,2024-07-22T09:18:00Z
+26,Gallo,Uccello domestico noto per il suo canto mattutino,2024-07-22T09:20:00Z
+27,Pavone,Uccello noto per la sua coda colorata e spettacolare,2024-07-22T09:22:00Z
+28,Struzzo,Uccello non volatore della savana africana,2024-07-22T09:24:00Z
+29,Puma,Predatore felino della regione americana,2024-07-22T09:26:00Z
+30,Ghepardo,Il mammifero terrestre più veloce,2024-07-22T09:28:00Z
+31,Leopardo,Felino solitario con un manto maculato,2024-07-22T09:30:00Z
+32,Coyote,Predatore adattabile della regione nordamericana,2024-07-22T09:32:00Z
+33,Volpe,Piccolo predatore noto per il suo mantello fulvo,2024-07-22T09:34:00Z
+34,Ratto,Piccolo mammifero noto per la sua abilità di adattamento,2024-07-22T09:36:00Z
+35,Marmotta,Roditore delle regioni montuose,2024-07-22T09:38:00Z
+36,Gufo,Uccello notturno con occhi grandi,2024-07-22T09:40:00Z
+37,Cinghiale,Suide selvatico delle foreste e boschi,2024-07-22T09:42:00Z
+38,Riccio,Mammifero con una copertura di aculei difensivi,2024-07-22T09:44:00Z
+39,Daino,Erbivoro della famiglia dei cervidi,2024-07-22T09:46:00Z
+40,Rana,Anfibio con una vita sia acquatica che terrestre,2024-07-22T09:48:00Z
+41,Salamandra,Anfibio con pelle umida e vivente in ambienti umidi,2024-07-22T09:50:00Z
+42,Tartaruga,Rettili con una corazza protettiva,2024-07-22T09:52:00Z
+43,Cobra,Serpente velenoso noto per il suo cappuccio espandibile,2024-07-22T09:54:00Z
+44,Iguana,Rettili grandi che vivono nelle foreste tropicali,2024-07-22T09:56:00Z
+45,Caimano,Rettili simili ai coccodrilli che vivono nei fiumi,2024-07-22T09:58:00Z
+46,Serpente,Rettili lunghi e sinuosi,2024-07-22T10:00:00Z
+47,Mamba,Serpente velenoso africano molto pericoloso,2024-07-22T10:02:00Z
+48,Camaleonte,Rettili noti per la loro capacità di cambiare colore,2024-07-22T10:04:00Z
+49,Grillo,Insetto noto per il suo canto caratteristico,2024-07-22T10:06:00Z
+50,Libellula,Insetto con ali trasparenti e corpo allungato,2024-07-22T10:08:00Z
