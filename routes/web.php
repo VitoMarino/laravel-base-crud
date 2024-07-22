@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admin\PageController;
+use App\Http\Controllers\Admin\PageController as PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
-Route::get('/animal', [PageController::class, 'index']);
-// Route::get('/animal{id}', [PageController::class, 'show']);
+
+Route::get('/', [PageController::class, 'index']);
+
+Route::get('/show/{animal}', [PageController::class, 'show']);

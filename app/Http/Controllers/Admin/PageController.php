@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Animal;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -12,7 +13,8 @@ class PageController extends Controller
      */
     public function index()
     {
-        //
+        $animal = Animal::all();
+        return view("pages.index", compact('animal'));
     }
 
     /**
@@ -34,9 +36,9 @@ class PageController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Animal $animal)
     {
-        //
+        return view('pages.show', compact('animal'));
     }
 
     /**
@@ -44,7 +46,7 @@ class PageController extends Controller
      */
     public function edit(string $id)
     {
-        //
+
     }
 
     /**
