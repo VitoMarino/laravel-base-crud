@@ -16,9 +16,9 @@ class AnimalSeeder extends Seeder
     {
         for ($i = 0; $i < 100; $i++) {
             $animal = new Animal();
-            $animal->name = $faker->text();
-            $animal->description = $faker->text();
-            $animal->image = $faker->text();
+            $animal->name = $faker->text(10);
+            $animal->description = $faker->text(10);
+            $animal->species = $faker->text(10);
             $animal->save();
         }
     }
