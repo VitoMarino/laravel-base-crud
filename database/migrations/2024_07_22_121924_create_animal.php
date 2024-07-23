@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name', 50);
             $table->string('description', 600);
-            $table->string('species', 50);
-            // $table->timestamps(null);
+            $table->string('species', 50 )->nullable();
+            $table->timestamps();
         });
     }
 

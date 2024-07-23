@@ -22,7 +22,8 @@ class AnimalSeeder extends Seeder
                 $newAnimal->name = $singleAnimal[1];
                 $newAnimal->description = $singleAnimal[2];
                 // $newAnimal->species = $singleAnimal[3];
-                // $newAnimal->timestamps = null;
+                $newAnimal->created_at = $singleAnimal[3];
+                $newAnimal->updated_at = $singleAnimal[3];
                 $newAnimal->save();
             }
         }
