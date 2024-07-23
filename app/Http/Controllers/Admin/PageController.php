@@ -32,6 +32,15 @@ class PageController extends Controller
     public function store(Request $request)
     {
         //
+        $data = $request->all();
+
+        $newAnimal = new Animal();
+        $newAnimal->name = $data['name'];
+        $newAnimal->description = $data['description'];
+        $newAnimal->image = $data['image'];
+        $newAnimal->save();
+
+        return redirect()->route('animal.show', $newAnimal->id);
     }
 
     /**

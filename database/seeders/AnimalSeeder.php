@@ -31,6 +31,8 @@ class AnimalSeeder extends Seeder
                 $newAnimal->updated_at = $singleAnimal[6];
                 $newAnimal->save();
             }
+
+
         }
     }
 }
