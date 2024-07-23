@@ -1,51 +1,31 @@
-ID,Name,Description,Timestamp
-1,Leone,Grande felino della savanna africana,2024-07-22T08:30:00Z
-2,Elefante,Il più grande mammifero terrestre,2024-07-22T08:32:00Z
-3,Cane,Compagno domestico noto per la sua fedeltà,2024-07-22T08:34:00Z
-4,Gatto,Animale domestico noto per la sua indipendenza,2024-07-22T08:36:00Z
-5,Tigre,Predatore solitario della foresta asiatica,2024-07-22T08:38:00Z
-6,Orso,Grande mammifero onnivoro della foresta,2024-07-22T08:40:00Z
-7,Cervo,Animale erbivoro che vive nelle foreste temperate,2024-07-22T08:42:00Z
-8,Giraffa,Animale alto con collo lungo che vive nelle savane,2024-07-22T08:44:00Z
-9,Zebra,Equide striato che vive nelle savane africane,2024-07-22T08:46:00Z
-10,Panda,Orso asiatico noto per il suo aspetto distintivo,2024-07-22T08:48:00Z
-11,Lupo,Predatore sociale delle foreste e tundre,2024-07-22T08:50:00Z
-12,Rinoceronte,Grande erbivoro con uno o due corni,2024-07-22T08:52:00Z
-13,Ippopotamo,Grande mammifero semi-acquatico,2024-07-22T08:54:00Z
-14,Scimmia,Primato con una grande varietà di specie,2024-07-22T08:56:00Z
-15,Kangaroo,Macropodo noto per il suo salto potente,2024-07-22T08:58:00Z
-16,Lemure,Primato unico dell'isola di Madagascar,2024-07-22T09:00:00Z
-17,Koala,Marsupiale arboricolo australiano,2024-07-22T09:02:00Z
-18,Canguro,Macropodo che vive nelle pianure australiane,2024-07-22T09:04:00Z
-19,Foca,Mammifero marino con corpi adattati al nuoto,2024-07-22T09:06:00Z
-20,Pinguino,Uccello incapace di volare che vive in Antartide,2024-07-22T09:08:00Z
-21,Aquila,Uccello rapace con vista acuta,2024-07-22T09:10:00Z
-22,Falco,Uccello predatore noto per la sua velocità,2024-07-22T09:12:00Z
-23,Colibrì,Uccello di piccole dimensioni con battito d'ali veloce,2024-07-22T09:14:00Z
-24,Cigno,Uccello elegante che vive vicino all'acqua,2024-07-22T09:16:00Z
-25,Papera,Uccello acquatico domestico,2024-07-22T09:18:00Z
-26,Gallo,Uccello domestico noto per il suo canto mattutino,2024-07-22T09:20:00Z
-27,Pavone,Uccello noto per la sua coda colorata e spettacolare,2024-07-22T09:22:00Z
-28,Struzzo,Uccello non volatore della savana africana,2024-07-22T09:24:00Z
-29,Puma,Predatore felino della regione americana,2024-07-22T09:26:00Z
-30,Ghepardo,Il mammifero terrestre più veloce,2024-07-22T09:28:00Z
-31,Leopardo,Felino solitario con un manto maculato,2024-07-22T09:30:00Z
-32,Coyote,Predatore adattabile della regione nordamericana,2024-07-22T09:32:00Z
-33,Volpe,Piccolo predatore noto per il suo mantello fulvo,2024-07-22T09:34:00Z
-34,Ratto,Piccolo mammifero noto per la sua abilità di adattamento,2024-07-22T09:36:00Z
-35,Marmotta,Roditore delle regioni montuose,2024-07-22T09:38:00Z
-36,Gufo,Uccello notturno con occhi grandi,2024-07-22T09:40:00Z
-37,Cinghiale,Suide selvatico delle foreste e boschi,2024-07-22T09:42:00Z
-38,Riccio,Mammifero con una copertura di aculei difensivi,2024-07-22T09:44:00Z
-39,Daino,Erbivoro della famiglia dei cervidi,2024-07-22T09:46:00Z
-40,Rana,Anfibio con una vita sia acquatica che terrestre,2024-07-22T09:48:00Z
-41,Salamandra,Anfibio con pelle umida e vivente in ambienti umidi,2024-07-22T09:50:00Z
-42,Tartaruga,Rettili con una corazza protettiva,2024-07-22T09:52:00Z
-43,Cobra,Serpente velenoso noto per il suo cappuccio espandibile,2024-07-22T09:54:00Z
-44,Iguana,Rettili grandi che vivono nelle foreste tropicali,2024-07-22T09:56:00Z
-45,Caimano,Rettili simili ai coccodrilli che vivono nei fiumi,2024-07-22T09:58:00Z
-46,Serpente,Rettili lunghi e sinuosi,2024-07-22T10:00:00Z
-47,Mamba,Serpente velenoso africano molto pericoloso,2024-07-22T10:02:00Z
-48,Camaleonte,Rettili noti per la loro capacità di cambiare colore,2024-07-22T10:04:00Z
-49,Grillo,Insetto noto per il suo canto caratteristico,2024-07-22T10:06:00Z
-50,Libellula,Insetto con ali trasparenti e corpo allungato,2024-07-22T10:08:00Z
+id,name,description,species,image,created_at,updated_at
+1,Elephant,"Large herbivorous mammal with a trunk","Loxodonta africana",https://images.unsplash.com/photo-1565986197-3bd0d9f7dbe4,2023-01-01,2023-07-01
+2,Lion,"Big cat known as the king of the jungle","Panthera leo",https://images.unsplash.com/photo-1564576780-99d7d9c7f8b4,2023-01-02,2023-07-02
+3,Tiger,"Large striped cat found in Asia","Panthera tigris",https://images.unsplash.com/photo-1506748686214-e9df14b7a11d,2023-01-03,2023-07-03
+4,Bear,"Large mammal with a thick coat and strong claws","Ursidae",https://images.unsplash.com/photo-1517941220344-d86c3c8331f1,2023-01-04,2023-07-04
+5,Zebra,"Horse-like mammal with black and white stripes","Equus zebra",https://images.unsplash.com/photo-1592466687308-165b82f22a7d,2023-01-05,2023-07-05
+6,Giraffe,"Tallest land animal with a long neck","Giraffa camelopardalis",https://images.unsplash.com/photo-1549861381-7edc2b7b8326,2023-01-06,2023-07-06
+7,Kangaroo,"Marsupial with strong legs and tail for jumping","Macropodidae",https://images.unsplash.com/photo-1506748686214-1d66b541bd72,2023-01-07,2023-07-07
+8,Koala,"Tree-dwelling marsupial with a distinctive nose","Phascolarctos cinereus",https://images.unsplash.com/photo-1580894902620-4d80e0047d1e,2023-01-08,2023-07-08
+9,Panda,"Bear-like mammal known for its black and white fur","Ailuropoda melanoleuca",https://images.unsplash.com/photo-1573560870304-df5948b5e41b,2023-01-09,2023-07-09
+10,Walrus,"Large marine mammal with tusks and whiskers","Odobenus rosmarus",https://images.unsplash.com/photo-1598564589485-d0653dff2a4b,2023-01-10,2023-07-10
+11,Seal,"Marine mammal with flippers and a streamlined body","Phocidae",https://images.unsplash.com/photo-1514852388006-d5d37d4d690f,2023-01-11,2023-07-11
+12,Otter,"Small aquatic mammal with a playful nature","Mustelidae",https://images.unsplash.com/photo-1574346648906-3b2b24fd93b4,2023-01-12,2023-07-12
+13,Sloth,"Slow-moving mammal with long limbs","Folivora",https://images.unsplash.com/photo-1506748686214-9d285bdcefd6,2023-01-13,2023-07-13
+14,Jaguar,"Large feline with a powerful build","Panthera onca",https://images.unsplash.com/photo-1597064834700-1ef372c42b70,2023-01-14,2023-07-14
+15,Leopard,"Spotted feline known for its agility","Panthera pardus",https://images.unsplash.com/photo-1575738827691-851fe3f63d84,2023-01-15,2023-07-15
+16,Cheetah,"Fastest land animal known for its speed","Acinonyx jubatus",https://images.unsplash.com/photo-1521747116042-5a810fda9664,2023-01-16,2023-07-16
+17,Rhinoceros,"Large herbivore with thick skin and horns","Rhinocerotidae",https://images.unsplash.com/photo-1506748686214-1f6a9a1832c0,2023-01-17,2023-07-17
+18,Hippopotamus,"Large semi-mammal with a huge mouth","Hippopotamus amphibius",https://images.unsplash.com/photo-1566842741-6e8b9e5e6792,2023-01-18,2023-07-18
+19,Orangutan,"Large ape with long arms and reddish hair","Pongo",https://images.unsplash.com/photo-1588131816601-4e518eb0fdba,2023-01-19,2023-07-19
+20,Chimpanzee,"Intelligent ape with a social structure","Pan troglodytes",https://images.unsplash.com/photo-1506748686214-f4d0f0fffa82,2023-01-20,2023-07-20
+21,Capuchin Monkey,"Small, intelligent monkey with a prehensile tail","Cebidae",https://images.unsplash.com/photo-1514459520974-b4a0d4e1cfa3,2023-01-21,2023-07-21
+22,Howler Monkey,"Large monkey known for its loud vocalizations","Alouatta",https://images.unsplash.com/photo-1534794418274-9d1e71c48291,2023-01-22,2023-07-22
+23,Squirrel,"Small rodent with a bushy tail","Sciuridae",https://images.unsplash.com/photo-1560287308-76e124f3026a,2023-01-23,2023-07-23
+24,Beaver,"Rodent known for building dams","Castor",https://images.unsplash.com/photo-1602824260344-c5b5ac4d7c1b,2023-01-24,2023-07-24
+25,Rabbit,"Small mammal with long ears and a short tail","Oryctolagus cuniculus",https://images.unsplash.com/photo-1573573414184-8a3a45190da2,2023-01-25,2023-07-25
+26,Hedgehog,"Small mammal covered in spines","Erinaceidae",https://images.unsplash.com/photo-1593795047571-cf7b2a6b8105,2023-01-26,2023-07-26
+27,Guinea Pig,"Small rodent often kept as a pet","Cavia porcellus",https://images.unsplash.com/photo-1596247043426-c5be8e31c6b5,2023-01-27,2023-07-27
+28,Parrot,"Colorful bird known for its ability to mimic sounds","Psittacidae",https://images.unsplash.com/photo-1583327369441-cba4b743f9b7,2023-01-28,2023-07-28
+29,Eagle,"Large bird of prey with keen eyesight","Aquila",https://images.unsplash.com/photo-1565376999-c82b576b9ae7,2023-01-29,2023-07-29
+30,Owl,"Nocturnal bird known for its silent flight","Strigiformes",https://images.unsplash.com/photo-1595283913798-3c7edc9302db,2023-01-30,2023-07-30

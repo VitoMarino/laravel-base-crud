@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Functions\Helpers;
 use App\Models\Animal;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -14,39 +15,22 @@ class AnimalSeeder extends Seeder
      */
     public function run(Faker $faker): void
     {
-        $animal = $this->getCsvInfo(__DIR__ . '/animals.csv');
+        // Questa riga di codice mi serviva qual'ora avessi la funzione nello stesso file
+        // $animal = $this->getCsvInfo(__DIR__ . '/animals.csv');
+
+        $animal = Helpers::getCsvInfo(__DIR__ . '/animals.csv');
 
         foreach ($animal as $index => $singleAnimal) {
             if ($index > 0) {
                 $newAnimal = new Animal();
                 $newAnimal->name = $singleAnimal[1];
                 $newAnimal->description = $singleAnimal[2];
-                // $newAnimal->species = $singleAnimal[3];
-                $newAnimal->created_at = $singleAnimal[3];
-                $newAnimal->updated_at = $singleAnimal[3];
+                $newAnimal->species = $singleAnimal[3];
+                $newAnimal->image = $singleAnimal[4];
+                $newAnimal->created_at = $singleAnimal[5];
+                $newAnimal->updated_at = $singleAnimal[6];
                 $newAnimal->save();
             }
         }
-    }
-
-    public function getCsvInfo($filePath)
-    {
-        $csvData = [];
-
-        // Apri il file, e lo devi leggere con 'r'
-        $fileData = fopen($filePath, 'r');
-
-        if ($fileData === false) {
-            throw new \InvalidArgumentException('File not found');
-        }
-
-        // Se lo trovi leggi riga per riga
-        while (($csvRow = fgetcsv($fileData)) !== false) {
-            $csvData[] = $csvRow;
-        }
-        // Chiudo il file
-        fclose($fileData);
-
-        return $csvData;
     }
 }
