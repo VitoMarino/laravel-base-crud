@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [PageController::class, 'index']);
-
-Route::get('/show/{animal}', [PageController::class, 'show']);
+Route::get('/animal/create', [PageController::class, 'create']);
+Route::get('/animal/{animal}', [PageController::class, 'show']);

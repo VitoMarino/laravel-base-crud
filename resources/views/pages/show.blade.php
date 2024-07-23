@@ -10,9 +10,13 @@
                 SHOW SINGLE ANIMAL
             </div>
             <div class="card-body">
-                <h5 class="card-title">{{ $animal->name }}</h5>
-                <p class="card-text">{{ $animal->description }}</p>
-                <p class="card-text"> {{ $animal->species }}</p>
+                <h5 class="card-title"> Name: {{ $animal->name }}</h5>
+                <p class="card-text">Description: {{ $animal->description }}</p>
+                <p class="card-text"> Species: {{ $animal->species }}</p>
+
+                <img src="{{$animal->image}}" alt="{{$animal->name}}">
+                <br>
+
                 <a href="/" class="btn btn-primary">Return on the table</a>
             </div>
         </div>
