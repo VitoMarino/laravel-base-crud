@@ -19,6 +19,11 @@
         </thead>
 
         <tbody>
+            @if (session('message'))
+                <div class="alert alert-success">
+                    {{session('message')}}
+                </div>
+            @endif
             @foreach ($animal as $singleAnimal)
             <tr>
                 <th scope="row">{{ $singleAnimal->id }}</th>

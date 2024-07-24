@@ -88,6 +88,6 @@ class PageController extends Controller
         //
         $animal->delete();
 
-        return redirect()->route('animal.index');
+        return redirect()->route('animal.index')->with('message', $animal->name . " eliminato correttamente!");
     }
 }
