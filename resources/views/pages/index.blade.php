@@ -29,7 +29,7 @@
                 <td><a href="{{route('animal.edit', $singleAnimal)}}" class="btn btn-success">Edit</a></td>
                 <!--Il tag a, ha metodo GET, perciò se voglio fare una DELETE (destroy) devo usare un form con metodo POST-->
                 <td>
-                    <form action="{{route('animal.destroy', $singleAnimal)}}" method="POST">
+                    <form action="{{route('animal.destroy', $singleAnimal)}}" method="POST" id="delete-form" class="delete-form">
                         @csrf
                         @method('DELETE')
 
@@ -42,4 +42,8 @@
             @endforeach
         </tbody>
     </table>
+@endsection
+
+@section('custom-script')
+    @vite('resources/js/delete-confirm.js')
 @endsection
