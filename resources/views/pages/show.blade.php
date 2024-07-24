@@ -17,7 +17,7 @@
                 <img src="{{$animal->image}}" alt="{{$animal->name}}">
                 <br>
 
-                <a href="/" class="btn btn-primary">Return on the table</a>
+                <a href="/animal" class="btn btn-primary">Return on the table</a>
             </div>
         </div>
     </div>

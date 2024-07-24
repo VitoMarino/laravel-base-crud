@@ -54,24 +54,40 @@ class PageController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Animal $animal)
     {
-
+        return view('pages.edit', compact('animal'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+
+    // Prendo i dati della richiesta, quindi chiave valore.
+    public function update(Request $request, Animal $animal)
     {
         //
+        $data = $request->all();
+
+        $animal->name = $data['name'];
+        $animal->description = $data['description'];
+        $animal->image = $data['image'];
+        $animal->update();
+
+        // Se avessi le fillable potrei fare così
+        // $pokemon->update($data);
+
+        return redirect()->route('animal.show', $animal);
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Animal $animal)
     {
         //
+        $animal->delete();
+
+        return redirect()->route('animal.index');
     }
 }

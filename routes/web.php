@@ -14,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+/*
 Route::get('/', [PageController::class, 'index']);
 Route::post('/animal', [PageController::class, 'store'])->name('animal.store');
 Route::get('/animal/create', [PageController::class, 'create']);
 Route::get('/animal/{animal}', [PageController::class, 'show'])->name('animal.show');
+*/
+
+Route::resource('/animal', PageController::class);
