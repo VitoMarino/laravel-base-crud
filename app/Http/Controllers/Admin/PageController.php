@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\EditAnimalRequest;
+use App\Http\Requests\StoreAnimalRequest;
 use App\Models\Animal;
 use Illuminate\Http\Request;
 
@@ -29,14 +31,15 @@ class PageController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(StoreAnimalRequest $request)
     {
-        //
-        $data = $request->all();
+        // Validated significa convalida con le cose che già hai
+        $data = $request->validated();
 
         $newAnimal = new Animal();
         $newAnimal->name = $data['name'];
         $newAnimal->description = $data['description'];
+        $newAnimal->species = $data['species'];
         $newAnimal->image = $data['image'];
         $newAnimal->save();
 
@@ -64,13 +67,14 @@ class PageController extends Controller
      */
 
     // Prendo i dati della richiesta, quindi chiave valore.
-    public function update(Request $request, Animal $animal)
+    public function update(EditAnimalRequest $request, Animal $animal)
     {
         //
-        $data = $request->all();
+        $data = $request->validated();
 
         $animal->name = $data['name'];
         $animal->description = $data['description'];
+        $animal->species = $data['species'];
         $animal->image = $data['image'];
         $animal->update();
 
